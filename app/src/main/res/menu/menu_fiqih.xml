@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mobileapps.talbia.bimbingan.Fiqih">
+    <item
+        android:id="@+id/haji"
+        android:orderInCategory="100"
+        android:title="Haji"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/umroh"
+        android:orderInCategory="100"
+        android:title="Umroh"
+        app:showAsAction="never" />
+</menu>
