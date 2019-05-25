@@ -1,47 +1,4 @@
 <resources>
-    <string name="app_name">Talbia Travel</string>
-    <string name="title_profile">Profile</string>
-    <string name="title_package">Package</string>
-    <string name="title_form">Pendaftaran</string>
-    <string name="title_prayer">Bimbingan</string>
-    <string name="title_information">Talbia</string>
-    <string name="title_setting">Account Setting</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">Top Headline</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="note_form_haji_1">
-1. Sebelum pendaftaran Siskohat Depag\n
-   &#160;&#160;&#160;&#160; - Minimum Setoran USD 4.000\n
-   &#160;&#160;&#160;&#160; - Pembatalan, Uang Setoran dikembalikan <b>100%</b>\n
-    </string>
-    <string name="note_form_haji_2">
-2. Setelah Pelunasan BPIH Khusus\n
-  &#160;&#160;&#160;&#160; - Pembatalan, dikenakan Bia Administrasi Rp. 500.000,-\n
-       &#160;&#160;&#160; &#160;&#160; dari setoran ONH
-    </string>
-
-
-    <string name="note_form_haji_3">
-3. Setelah Konrak Hotel &amp; Apply Visa\n
-   &#160;&#160;&#160; - Minimum Setoran 80% dari harga Paket\n
-   &#160;&#160;&#160; - Pembatalan dikenakan Bia administrasi yang telah dibayarkan\n
-   &#160;&#160;&#160; &#160;&#160;kepada pihak ketiga di Saudi Arabia, sebesar 75% dari harga\n
-   &#160;&#160;&#160; &#160;&#160;paket
-    </string>
-
-    <string name="action_sign_in_google">Google</string>
-    <string name="action_sign_in_facebook">Facebook</string>
-    <string name="facebook_app_id">273345680260899</string>
-    <string name="fb_login_protocol_scheme">fb273345680260899</string>
-    <string name="title_activity_doa_main">Doa_main</string>
-    <string name="tab_text_1">Haji</string>
-    <string name="tab_text_2">Umroh</string>
-
-    <string name="action_settings">Settings</string>
-    <string name="section_format">Hello World from section: %1$d</string>
-    <string name="title_activity_fiqih">Fiqih</string>
 </resources>

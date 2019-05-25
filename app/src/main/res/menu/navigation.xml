@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/navigation_beranda"
-        android:icon="@drawable/home"
-        android:title="@string/title_information" />
-
-    <item
-        android:id="@+id/navigation_package"
-        android:icon="@drawable/layanan"
-        android:title="@string/title_package" />
-
-    <item
-        android:id="@+id/navigation_prayer"
-        android:icon="@drawable/pray"
-        android:title="@string/title_prayer" />
-
-    <item
-        android:id="@+id/navigation_form"
-        android:icon="@drawable/curricullum"
-        android:title="@string/title_form" />
-
-    <item
-        android:id="@+id/navigation_profile"
-        android:icon="@drawable/account"
-        android:title="@string/title_profile" />
+        android:id="@+id/cari"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/app_name"
+        app:showAsAction="always" />
 
 
 </menu>

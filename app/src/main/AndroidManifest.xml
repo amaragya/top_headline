@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="mobileapps.talbia">
+    package="amaragya.bahaso">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -15,94 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <meta-data
-            android:name="google_analytics_adid_collection_enabled"
-            android:value="false"></meta-data>
-        <meta-data
-            android:name="firebase_analytics_collection_deactived"
-            android:value="true"></meta-data>
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
-
+        <activity
+            android:name=".SearchActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Splashscreen"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!--  -->
-        <!-- <activity android:name=".Halaman.Tentang_kami" /> -->
-        <!-- <activity android:name=".Halaman.BimbinganFragment" /> -->
-        <!-- <activity android:name=".Halaman.PemesananFragment" /> -->
-        <!-- <activity -->
-        <!-- android:name=".Halaman.LayananFragment" -->
-        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
-        <!-- <activity android:name=".Halaman.BerandaFragment" /> -->
-        <activity
-            android:name=".Halaman.Akun_setting"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <!-- <activity android:name=".bimbingan.Doa_haji" /> -->
-        <activity
-            android:name=".bimbingan.Detail.Detail_doa"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <!--  -->
-        <!--  -->
-        <activity android:name=".pemesanan.Haji" />
-        <activity android:name=".pemesanan.Umroh" />
-        <activity android:name=".pemesanan.Tour" />
-        <activity android:name=".bimbingan.JadwalShalatActivity" />
-
-        <activity
-            android:name=".bimbingan.Detail.Detail_fiqih"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".bimbingan.Almasurat" />
-        <activity
-            android:name=".bimbingan.Detail.Detail_almasurat"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".bimbingan.Detail.Detail_sejarah_islam" />
-        <activity android:name=".bimbingan.Sejarah_islam" />
-        <activity android:name=".bimbingan.Wawasan_dunia" />
-        <activity android:name=".bimbingan.Detail.Detail_wawasan_islam" />
-        <activity android:name=".Fragment.Detail.Detail_informasi" />
-        <activity
-            android:name=".Halaman.Daftar_activity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Fragment.Detail.Detail_layanan" />
-        <activity
-            android:name=".Halaman.Ganti_password"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Halaman.Lupa_password" />
-        <activity android:name=".Halaman.Reset_password">
-            <intent-filter android:label="Buka Aplikasi">
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
-                <data
-                    android:host="api.talbia.decimatech.co.id"
-                    android:scheme="https" />
-                <!-- note that the leading "/" is required for pathPrefix -->
-            </intent-filter>
-        </activity>
-        <activity android:name=".Halaman.verif_kode" />
-        <activity
-            android:name=".bimbingan.Doa_main"
-            android:label="@string/title_activity_doa_main"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".bimbingan.Fiqih"
-            android:label="@string/title_activity_fiqih"></activity>
     </application>
 
 </manifest>
